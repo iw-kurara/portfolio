@@ -3840,6 +3840,10 @@ body:not(.device-touch) .portfolio {
 	padding: 0 12px 12px 0;
 }
 
+.portfolio-item:not(:first-child) {
+	margin: 0em 2em;
+}
+
 .portfolio-notitle .portfolio-item,
 .portfolio-notitle .iportfolio { overflow: hidden; }
 
